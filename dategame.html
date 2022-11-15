@@ -1,10 +1,16 @@
 <html>
+    <link rel="stylesheet" href="styles.css">
     <body>
-        <input type="text" id="month" size="15" placeholder="Enter a month"/>
-        <input type="text" id="day" size="15" placeholder="Enter a day">
-        <input type="text" id="year" size="15" placeholder="Enter a year">
-        <button onclick="getDay()">Get the weekday!</button>
+        <div class="datebox">
+            <div class="date">
+                <a class="textbox" type="text" id="month"></a>
+                <a class="textbox" type="text" id="day"></a>
+                <a class="textbox" type="text" id="year"></a>
+                <button class="textbox" onclick="shuffle()">Shuffle</button>
+            </div>
+        <!-- <button class="date" onclick="getDay()">Get the weekday!</button> -->
         <div id="result"></div>
+        </div>
     </body>
     <script src="dategame.js"></script>
 </html>
